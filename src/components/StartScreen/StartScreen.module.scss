@@ -1,0 +1,25 @@
+.startForm {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.label {
+  margin-bottom: 5px;
+  font-size: 24px;
+  text-align: center;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.input {
+  margin-bottom: 15px;
+  font-size: 18px;
+  height: 30px;
+}
+
+.buttonContainer {
+  width: 150px;
+}
